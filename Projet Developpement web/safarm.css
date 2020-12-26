@@ -1,0 +1,149 @@
+
+
+/*Menu_Contact*/
+
+	nav.menu_contact{
+		background-color: darkblue;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+ 	nav.menu_contact ul li.btn_contact{
+ 		display: inline-block;
+ 	}
+ 	nav.menu_contact ul li a{
+ 		color: white;
+ 		padding: 5px;
+ 	}
+ 	nav.menu_contact ul {
+ 		margin-left: 70%;
+ 	}
+
+
+/*Morocco Highlights*/
+
+	table .titre{
+		font-weight: bold;
+		text-align: 50%;
+	}
+
+
+	table  img{
+		width: 274px; height: 222px;
+	}
+ 	
+    table tr td .slider1{
+ 		width: 200px;
+ 		height: 222px;
+ 		overflow: hidden;
+ 	}
+ 	table tr td .slides1{
+ 		width: calc(274px *3) ;
+ 		animation: glisse1 20s infinite;
+ 	}
+
+ 	table tr td .slide1{
+ 		float: left;
+ 	}
+
+ 	@keyframes glisse1{
+ 		0% {
+ 			transform: translateX(0);
+ 		}
+ 		33% {
+ 			transform: translateX(-274px);
+ 		}
+ 		66% {
+ 			transform: translateX(-548px);
+ 		}
+ 		100% {
+ 			transform: translateX(0);
+ 		}
+
+ 	}
+
+
+
+ 	table a{
+ 		color: white;
+ 		text-decoration: none;
+ 		background-color: darkred;
+ 		padding-left: 10px;
+ 		padding-right: 10px;
+ 	}
+
+
+
+ 		 
+
+ 		 	/*booking*/
+ 	.ending{
+ 		margin-left: 280px;
+ 		width: 750px;
+ 		height: 500px;
+ 	}
+
+ 	
+
+ 	.openning_hours{
+ 		float: left;
+ 		background: url(img/recep.jpg) no-repeat;
+ 		width: 50%; 
+ 		height: 100%;
+ 		font-weight: bold;
+
+ 	}
+
+ 	
+ 	.opening_hours p, h3{
+ 		margin-top: 95%;
+ 		margin-left: 10px;
+ 	}
+
+
+
+
+ 	.contact_form {
+ 		float: left;
+		background-color: darkgrey;
+		width: 50%; height: 70%;
+
+	}
+
+
+	 .form_input , .form_input1{
+	 	margin-top: 20px;
+	 	width: 40%;
+	 }
+
+	 .form_input{
+
+	 		margin-left: 40px;
+	 }
+
+	 .form_input2{
+	 	margin-left: 40px;
+	 	margin-top: 10px;
+	 	width: 81%;
+	 }
+
+ 	.submit{
+ 		margin-left: 40px;
+ 		margin-top: 30px;
+ 		width: 81%;
+ 		padding: 10px;
+ 		background-color: darkred;
+ 		color: white;
+
+ 	}
+ 	
+
+
+
+
+
+
+ 	
+
+
+ 	
